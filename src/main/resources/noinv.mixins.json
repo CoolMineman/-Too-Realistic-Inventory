@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.coolmineman.noinv.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ExampleMixin",
+    "SlotMixin",
+    "PacketSwapMixin",
+    "PlayerEntityMixin",
+    "DefaultInventoryMixin"
+  ],
+  "client": [
+    "KeyMixin",
+    "ScrollStopperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "noinv",
+  "version": "${version}",
+
+  "name": "No Inventory",
+  "description": "You only have two hands.",
+  "authors": [
+    "CoolMineman"
+  ],
+  "contact": {
+    "homepage": "https://coolmineman.github.io/",
+    "sources": "TBD"
+  },
+
+  "license": "No Eatting This Mod",
+  "icon": "assets/noinv/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.coolmineman.noinv.NoInv"
+    ]
+  },
+  "mixins": [
+    "noinv.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
